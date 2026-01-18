@@ -1,0 +1,41 @@
+# Python / Jupyter / VS Code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.venv/
+venv/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# Data and models
+models/
+*.sqlite
+*.db
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+
+# Generated artifacts
+Final_Report.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+
+# OS files
+Thumbs.db
+.DS_Store
