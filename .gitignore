@@ -5,10 +5,12 @@ __pycache__/
 *.pyd
 *.log
 *.tmp
-.venv/
+# Allow committing venv (requested)
+#! keep generic ignores, but include local .venv
 venv/
 ENV/
 .env
+!.venv/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -18,15 +20,18 @@ ENV/
 .vscode/
 
 # Data and models
-models/
+# Allow models folder (requested)
 *.sqlite
 *.db
+# Keep CSVs ignored by default, but include hospital.csv
 *.csv
+!hospital.csv
 *.tsv
 *.parquet
 *.feather
 *.xlsx
 *.xls
+!models/
 
 # Generated artifacts
 Final_Report.pdf
