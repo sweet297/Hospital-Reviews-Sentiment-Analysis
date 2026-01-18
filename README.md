@@ -3,7 +3,6 @@
 A small project analyzing sentiment in hospital reviews, with notebooks for exploration/modeling and a script to generate a polished PDF report.
 
 ## Structure
-- [code.ipynb](code.ipynb): Core notebook for data exploration and sentiment modeling.
 - [hospital_sentiment.ipynb](hospital_sentiment.ipynb): Additional/alternate workflow for sentiment analysis.
 - [hospital.csv](hospital.csv): Dataset of hospital reviews.
 - [models/](models/): Saved model artifacts or outputs (if any).
