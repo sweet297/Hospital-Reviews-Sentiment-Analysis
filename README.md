@@ -6,9 +6,6 @@ A small project analyzing sentiment in hospital reviews, with notebooks for expl
 - [code.ipynb](code.ipynb): Core notebook for data exploration and sentiment modeling.
 - [hospital_sentiment.ipynb](hospital_sentiment.ipynb): Additional/alternate workflow for sentiment analysis.
 - [hospital.csv](hospital.csv): Dataset of hospital reviews.
-- [Final_Report.md](Final_Report.md): Markdown report; source for the generated PDF.
-- [markdown_to_pdf.py](markdown_to_pdf.py): Converts the Markdown report to a PDF with math support.
-- [read_template.py](read_template.py): Reads a Word template and prints its structure (requires a local .docx file).
 - [models/](models/): Saved model artifacts or outputs (if any).
 
 ## Quickstart (Windows)
